@@ -5,17 +5,21 @@ import './index.css'
 import {BrowserRouter, Routes, Route} from "react"
 
 
-ReactDOM.createRoot(document.getElementById("root")
-                    <StrictMode>
-                      <BrowserRouter basename={import.meta.env.BASE_URL)
-                        <Routes>
-                          <Route path= "*" element={<App />} />
-                        </Routes>
-                        </BrowserRouter>
-                          </StrictMode>
 
-// createRoot(document.getElementById('root')).render(
-//   <StrictMode>
-//     <App />
-//   </StrictMode>,
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
 )
+
+
+
+
+// ReactDOM.createRoot(document.getElementById("root")
+//                     <StrictMode>
+//                       <BrowserRouter basename={import.meta.env.BASE_URL)
+//                         <Routes>
+//                           <Route path= "*" element={<App />} />
+//                         </Routes>
+//                         </BrowserRouter>
+//                           </StrictMode>
